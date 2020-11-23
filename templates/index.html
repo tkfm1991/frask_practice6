@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>お名前を入力して下さい</title>
+    </head>
+    <body>
+        ログインしてください<br />
+        <form method="get" action="{{ url_for('login')}}">
+            <p>名前：<input type="text" name="name" size="40" /></p>
+            <button type="submit">ログイン</button>
+        </form>
+    </body>
+</html>
